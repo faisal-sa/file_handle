@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:go_router/go_router.dart';
 import 'package:pdfrx/pdfrx.dart';
 
 class BookCard extends StatelessWidget {
@@ -17,7 +15,7 @@ class BookCard extends StatelessWidget {
         clipBehavior: Clip.antiAlias,
         child: Container(
           color: Colors.grey[200],
-          child: Center(child: PdfViewer.asset("Clean.pdf")),
+          child: Center(child: PdfViewer.file("path")),
         ),
       ),
     );

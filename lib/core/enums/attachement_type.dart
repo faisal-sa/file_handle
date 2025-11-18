@@ -1,0 +1,1 @@
+enum AttachementType { graphic, document }

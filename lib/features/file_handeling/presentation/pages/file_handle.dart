@@ -1,4 +1,4 @@
-import 'package:file_handeling/features/file_handeling/presentation/widgets/book_card.dart';
+import 'package:file_handeling/features/file_handeling/presentation/widgets/file_picker.dart';
 import 'package:flutter/material.dart';
 
 class FileHandle extends StatelessWidget {
@@ -14,7 +14,8 @@ class FileHandle extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
-                  Row(children: [BookCard()]),
+                  FilePickerButton(),
+                  //Row(children: [BookCard()]),
                 ],
               ),
             ),
